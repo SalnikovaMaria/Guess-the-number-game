@@ -27,5 +27,5 @@ def random_predict(number:int=1) -> int:
             break #конец игры выход из цикла
     return count 
 
-print(f'Количество попыток: {random_predict(55)}')
+print(f'Количество попыток: {random_predict()}')
 
